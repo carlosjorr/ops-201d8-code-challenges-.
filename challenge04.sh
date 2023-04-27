@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Script Name:                  Script Name
-# Author:                       Your Name
-# Date of latest revision:      00/00/0000
-# Purpose:                      Purpose
+# Script Name:                  ops challenge 04
+# Author:                       carlos rojas
+# Date of latest revision:      04/27/2023
+# Purpose:                      automate repetitive tasks
 
 # Declaration of variables
 
@@ -16,7 +16,7 @@
 
 # End
 
-#!/bin/bash
+
 
 # Check if directories exist before creating them
 if [ ! -d "dir1" ]; then
