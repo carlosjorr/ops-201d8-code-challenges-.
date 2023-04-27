@@ -16,7 +16,7 @@
 
 # End
 
-
+#!/bin/bash
 
 # Check if directories exist before creating them
 if [ ! -d "dir1" ]; then
