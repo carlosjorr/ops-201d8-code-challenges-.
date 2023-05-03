@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Display computer name
+echo "===== Computer Name ====="
+hostname
+
 # CPU
 echo "===== CPU Information ====="
 lshw -class processor | grep -E 'product|vendor|physical id|bus info|width'
