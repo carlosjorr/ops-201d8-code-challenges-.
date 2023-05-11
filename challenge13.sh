@@ -7,7 +7,6 @@
 
 
 
-
 perform_network_operations() {
     read -p "Enter a domain name: " domain
     output_file="network_report-test.txt"
