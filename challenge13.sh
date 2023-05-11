@@ -10,7 +10,7 @@
 
 perform_network_operations() {
     read -p "Enter a domain name: " domain
-    output_file="network_report.txt"
+    output_file="network_report-test.txt"
 
     echo "Running whois against $domain:"
     whois $domain >> $output_file
@@ -32,36 +32,3 @@ perform_network_operations() {
 
 
 
-echo "Select an option:"
-echo "1. Option 1"
-echo "2. Option 2"
-echo "3. Option 3"
-echo "4. Option 4"
-echo "5. Option 5"
-echo "6. Perform network operations"
-
-read -p "Enter your choice: " choice
-
-case $choice in
-    1)
-        # Option 1 logic
-        ;;
-    2)
-        # Option 2 logic
-        ;;
-    3)
-        # Option 3 logic
-        ;;
-    4)
-        # Option 4 logic
-        ;;
-    5)
-        # Option 5 logic
-        ;;
-    6)
-        perform_network_operations
-        ;;
-    *)
-        echo "Invalid choice"
-        ;;
-esac
