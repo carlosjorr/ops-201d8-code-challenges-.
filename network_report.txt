@@ -1,0 +1,24 @@
+
+; <<>> DiG 9.18.12-0ubuntu0.22.04.1-Ubuntu <<>> carlos@outlook
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: SERVFAIL, id: 54177
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;carlos\@outlook.		IN	A
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
+;; WHEN: Thu May 11 00:10:51 UTC 2023
+;; MSG SIZE  rcvd: 43
+
+Host carlos\@outlook not found: 2(SERVFAIL)
+Server:		127.0.0.53
+Address:	127.0.0.53#53
+
+** server can't find carlos\@outlook: SERVFAIL
+
+X
